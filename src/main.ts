@@ -172,7 +172,7 @@ scene.add(overlay);
 /**
  * Environment map
  */
-const environmentMap = await cubeTextureLoader.loadAsync([
+const environmentMap = cubeTextureLoader.load([
   "/textures/environmentMaps/0/px.jpg",
   "/textures/environmentMaps/0/nx.jpg",
   "/textures/environmentMaps/0/py.jpg",
